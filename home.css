@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+
+}
+body{
+    box-sizing: border-box;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+header{
+    /* position: fixed; */
+    z-index: 1;
+    width: 100vw;
+    min-width: 1276px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(45deg, rgb(173 107 9 / 87%), #d1a495a8);
+
+}
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    
+
+}
+#logo{
+  
+    height: 90px;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#logo img{
+    text-align: center;
+    justify-content: center;
+    height: 90px ;
+    width: auto;
+    font-family: 'Cinzel', serif;
+    
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.makeItemCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 22px;
+    margin-left: 30px;
+    color: #013833;
+    font-weight: 800;
+    padding: 5px;
+    transition: all 0.3s ease;
+    /* border-radius: 5px; */
+    /* border: 2px solid #113833; */
+    
+}
+header #joinUs {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 22px;
+    font-weight: 800;
+    padding: 10px;
+    color: #4cc751;
+    background: #fff5de;
+    border-radius: 26px;
+    transition: all .3s ease;
+    
+}
+header #joinUs:hover{
+    background: #4cc751;
+    color: #fff5de;
+    border: none;
+}
+nav ul .active, a:hover{
+    color: rgb(165, 107, 0);
+    border-bottom: 3px solid rgb(177, 106, 14);
+}
+
+
+
+/* Body Start from Here */
+
+#firstSection{
+    
+    width: 100vw;
+    min-width: 1276px;
+    height: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('nitin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#firstSection #main .title{ 
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#firstSection #main .title p{
+    font-family: arial;
+    font-size: 30px;
+    font-weight: 800;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: 10px;
+    color: #ffc47a;;
+}
+
+#firstSection #main .title h1 b{
+    font-size: 63px;
+    color: #d17411;
+    font-weight: 900;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px 4px #1e1414;
+
+}
+    
+
+#firstSection #main .title h1{
+    padding-top: 180px;
+    font-size: 60px;
+    text-shadow: 1px 1px 4px #1e1414;
+    color: aliceblue;
+    font-family: 'Cinzel';
+}
+#firstSection #main .title .about{
+    margin-top: 27px;
+    background: linear-gradient(45deg, rgb(173 107 9 / 87%),#b57e7859, #d1a495a8);
+    width: 60vw;
+    min-width: 550px;
+    
+    height: auto;
+    border-radius: 20px;
+}
+#firstSection #main .title .about p{
+    padding: 20px;
+    font-size: 20px;
+    color: #ffdda9;
+    text-shadow: 1px 1px black;
+}
+
+
+
+#contacts{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Section Second Start From Here Ok */
+
+#secondSection{
+    width: 100vw;
+    height: auto;
+    min-width: 1276px;
+    background: #f5f2f2;
+}
+#secondSection .info_about img{
+    width: 130px;
+    height: 130px;
+    border: 3px solid #0ba4d3;
+    /* height: auto; */
+    border-radius: 50%;
+    margin: 10px;
+}
+#secondSection .info_about p{
+    padding: 30px 30px 20px 30px;
+}
+.info_about{
+    display: flex;
+    width: 100vw;
+}
+
+#secondSection .info_about #crew_section{
+    flex: 1.5;
+    padding: 20px;
+    transition: all 1s ease;
+    width: 2fr;
+}
+#secondSection .info_about #crew_section #crew_one,#crew_two, #crew_three, #crew_for{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+
+}
+#secondSection .info_about #crew_section .screw_card{
+    /* border: 2px solid red; */
+    margin: 7px;
+    background: linear-gradient(226deg,#aac9ab, #cbe3e1,#aac9ab);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #042820;
+    min-width: 267px;
+    max-width: 324px;
+   
+    
+  
+}
+#secondSection .info_about #crew_section .screw_card:hover{
+    background: linear-gradient(226deg,#4ba0af,#aac9ab,#5a8fad);
+    box-shadow: 1px 1px 11px #042820;
+    
+    
+}
+#secondSection .info_about #crew_section .screw_card h4{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#secondSection .info_about #info_ykes{
+    box-sizing: border-box;
+    padding: 20px;
+    /* background: #821f1f; */
+    text-align: center;
+    flex: 1;
+}
+#secondSection .info_about #info_ykes #info_ykes_main{
+    width: 1fr;
+    margin-bottom: 20px;
+    padding: 20px;
+    min-width: 350px;
+    background: linear-gradient(325deg,#a6ffa9, #ffffff,#b2ffb5);
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* contacts Start from here  */
+
+
+#contacts {
+    width: 100vw;
+    min-width: 1276px;
+    height: auto;
+    text-align: center;
+    background: linear-gradient(45deg, #5ec5bb, #e7f8fa, #29bdd0);
+}
+#contacts h2{
+    font-size: 50px;
+    font-weight: 600;
+    padding-top:  20px;
+    font-family: arial;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffe9cd;
+    text-shadow: 1px 1px 5px black;
+}
+#contacts p{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px;
+    font-family: arial;
+    color: #64ff6a;
+    text-shadow: 1px 1px 5px black;
+}
+#contacts #contact_box_main #contact_box #search_bar{
+    width: 100vw;
+    height: auto;
+    font-family: arial;
+}
+
+#contacts #contact_box_main #contact_box #search_bar input{
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 14px;
+    background: #61dff0;
+    font-family: arial;
+    
+}
+#contacts #contact_box_main #contact_box #search_bar input:hover{
+    background: #29bdd0;
+}
+
+#contacts #contact_box_main #contact_box #search_bar button{
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 8px;
+    margin-top: -10px;
+    
+    background: #52e658;
+    color: #1f5682;
+    border: none;
+    font-family: arial;
+    transition: ease-in .3s all;
+    font-weight: bolder;
+}
+#contacts #contact_box_main #contact_box #search_bar button:hover{
+    background: #1f5682; 
+    color: #52e658;
+}
+
+#contacts #contact_box_main #contact_box #search_bar{
+    display: flex;
+}
+#contacts #contact_box_main #contact_box, #search_bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#contacts table{
+    /* border: 2px solid black; */
+    width: 80vw;
+    min-width: 750px;
+    height: auto;
+    text-align: center;
+    margin: 40px;
+    
+}
+#contacts table, th, td{
+    /* border: 2px solid black; */
+    /* border-collapse: collapse; */
+    padding: 5px;
+    font-family: arial;
+    font-size: 16px;
+    border-radius: 10px;
+    
+    
+}
+#contacts table tr:hover{
+    background: linear-gradient(166deg, #94ecaa,#0ad8ce);
+    font-size: 17px;
+    font-weight: bolder;
+}
+#contacts table tr:nth-child(2n+1):hover{
+    background: linear-gradient(166deg, #94ecaa,#0ad8ce);
+
+}
+#contacts table th{
+    background: linear-gradient(166deg, #eba045,#8d7e7d);
+    font-size: 25px;
+    color: white;
+    font-family: arial;
+    font-weight: 700;
+    padding: 10px;
+}
+#contacts table tr:nth-child(2n+1){
+    background: linear-gradient(166deg, #f7d2a4,#c9b8b7ad);
+
+}
+
+
+
+
+
+
+
+
+/* footer Start from here */
+
+footer{
+    position: absolute;
+    align-items: center;
+    width: 100vw;
+    min-width: 1276px;
+    height: 200px;
+    background: goldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(45deg, rgb(173 107 9 / 87%), #d1a495a8);
+    
+
+}
+ footer p a{
+    text-decoration: none;
+    font-family: arial;
+    font-weight: 900;
+    color: #d0f7d2;
+} 
+footer hr{
+    position: relative;
+    margin-top: 20px;
+    width: 50vw;
+    min-width: 500px;
+    height: 2px;
+    background: black;
+    border: none
+}
+footer p{
+    font-size: 20px;
+   
+    margin-top: 15px;
+    font-family: arial;
+}
+
+
+
+
+
+/* media quary start here okkkkkkk */
+
+
+
+
+@media screen and (max-width: 400px){
+    #firstSection{
+        height: 100vh;
+    }
+
+    header{
+        background: red;
+        min-width: 419px;
+        height: 60px;
+    }
+    #logo img{
+  
+        height: 60px;
+        width: auto;
+    }
+    nav a{
+        font-size: 10px;
+        margin-left: 2px;
+    }
+    header #joinUs{
+        font-size: 13px;
+        padding: 5px;
+    }
+    #firstSection{
+        min-width: 419px;
+    }
+    #firstSection #main .title h1 b{
+        font-size: 32px;
+    }
+    #firstSection #main .title h1{
+        font-size: 32px;
+    }
+    #firstSection #main .title p{
+        font-size: 19px;
+    }
+    #firstSection #main .title .about {
+        min-width: 350px;
+    }
+    #firstSection #main .title .about p{
+        font-size: 15px;
+    }
+    #secondSection #info_about #screw_section{
+        min-width: 419px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
